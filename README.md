@@ -1,6 +1,6 @@
 <p align="center">
   <!-- Đổi đường dẫn ảnh sau khi bạn tải ảnh chụp màn hình lên repo, ví dụ docs/man-hinh-chinh.png -->
-  <img src="docs/man-hinh-chinh.png" alt="HDSD Studio" width="820">
+  <img src="logo.png" alt="HDSD Studio" width="820">
 </p>
 
 <h1 align="center">HDSD Studio</h1>
