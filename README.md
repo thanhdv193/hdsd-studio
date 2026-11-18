@@ -1,6 +1,6 @@
 <p align="center">
   <!-- Đổi đường dẫn ảnh sau khi bạn tải ảnh chụp màn hình lên repo, ví dụ docs/man-hinh-chinh.png -->
-  <img src="logo.png" alt="HDSD Studio" width="820">
+  <img src="docs/man-hinh-chinh.png" alt="HDSD Studio" width="820">
 </p>
 
 <h1 align="center">HDSD Studio</h1>
@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><b>⬇️ Tải bản mới nhất</b></a>
+  <a href="../../releases/latest"><b>⬇️ Tải bản mới nhất</b></a> &nbsp;·&nbsp; <a href="huong-dan/README.md"><b>📖 Hướng dẫn sử dụng</b></a>
 </p>
 
 ---
@@ -54,7 +54,6 @@ Bạn chỉ cần dùng phần mềm như bình thường. Bấm vào đâu, HDS
 ### ✨ AI tự viết lại lời thoại và các bước
 - Dựa trên các thao tác bạn vừa ghi, AI viết tên bước, câu mô tả, lời đọc cho video, gọn và dễ hiểu.
 - Chưa ưng thì bấm viết lại, hoặc tự sửa từng câu.
-- Dịch cả tài liệu sang ngôn ngữ khác, xem song song bản gốc và bản dịch.
 
 ### 🎥 Tự động tạo video hướng dẫn
 Một cú bấm, app dựng thành video MP4 hoàn chỉnh, không cần phần mềm dựng phim.
@@ -70,6 +69,10 @@ Một cú bấm, app dựng thành video MP4 hoàn chỉnh, không cần phần 
 
 ### 🔊 Về giọng đọc VieNeu
 Muốn giọng tự nhiên nhất mà vẫn miễn phí: vào **Cài đặt › Giọng đọc video**, bấm **Tải giọng đọc VieNeu**. Tải một lần khoảng 1,3 GB, sau đó chạy ngay trên máy, không cần mạng, xoá được bất cứ lúc nào.
+
+## Hướng dẫn sử dụng đầy đủ
+
+Xem **[Hướng dẫn sử dụng](huong-dan/README.md)**, gồm 12 trang từ cài đặt, ghi thao tác, biên tập, AI viết lời, làm video, giọng đọc, xuất file, cài đặt của app đến báo lỗi và câu hỏi thường gặp.
 
 ## Phím tắt khi ghi
 
