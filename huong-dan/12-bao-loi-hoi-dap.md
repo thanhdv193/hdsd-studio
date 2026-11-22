@@ -110,6 +110,23 @@ Chọn kiểu **Cận cảnh từng điểm**, khổ **Dọc 9:16**. Xem [8.1](0
 **Muốn tắt nhạc nền.**
 Ở màn Xuất file, phần **Nhạc nền** chọn **Không có nhạc nền**.
 
+### Dịch sang ngôn ngữ khác
+
+**Bấm "Dịch sang ngôn ngữ khác" mà AI chưa dịch?**
+Nút đó chỉ mở hộp thoại. Chọn ngôn ngữ rồi bấm **Bắt đầu dịch**. Xem [13.2](13-dich-ngon-ngu.md#132-dịch-tài-liệu).
+
+**Báo "Chưa có API key"?**
+Vào **Cài đặt › Cài đặt AI** nhập khoá của AI đang chọn (Claude hoặc Gemini). Xem [7.1](07-ai.md#71-cài-ai-làm-1-lần).
+
+**Đang dịch nhiều ngôn ngữ thì bị lỗi.**
+Các ngôn ngữ đã xong vẫn được giữ. Mở lại hộp thoại, bấm **Bắt đầu dịch** để dịch tiếp phần còn lại.
+
+**Tên nút trong bản dịch vẫn là tiếng Việt.**
+Đúng như thiết kế: chữ trên giao diện phần mềm được giữ nguyên để người xem tìm đúng nút trên ảnh chụp.
+
+**Video tiếng nước ngoài báo "Máy chưa có giọng đọc…".**
+Tải giọng của ngôn ngữ đó trên máy, xem [13.7](13-dich-ngon-ngu.md#137-giọng-đọc-cho-bản-dịch). Riêng **tiếng Lào và Khmer** chưa có giọng: tắt Giọng đọc khi xuất.
+
 ### Tài liệu và file
 
 **Tài liệu được lưu ở đâu?**
@@ -118,4 +135,4 @@ Chọn kiểu **Cận cảnh từng điểm**, khổ **Dọc 9:16**. Xem [8.1](0
 **Chuyển tài liệu sang máy khác thế nào?**
 Chép cả thư mục lưu tài liệu sang máy mới, rồi trên máy mới chọn **Đổi thư mục** tới thư mục đó.
 
-[← Trang trước](11-cai-dat-app.md) · [Về mục lục](README.md)
+[← Trang trước](11-cai-dat-app.md) · [Trang sau: Dịch sang ngôn ngữ khác →](13-dich-ngon-ngu.md)

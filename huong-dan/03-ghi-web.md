@@ -43,7 +43,8 @@ Trên cùng còn có:
 1. **Bấm vào đâu, app khoanh đỏ và đánh số ở đó** (1, 2, 3…). Bấm vào ô nhập, nút, đường link, ô chọn… đều được khoanh.
 2. App **tự viết sẵn câu mô tả** cho mỗi điểm dựa vào nút hoặc ô bạn bấm, ví dụ "Bấm nút Lưu", "Nhập Tên đăng nhập", "Chọn Đối tượng".
 3. **Khi màn hình đổi** (chuyển trang, mở cửa sổ mới, mở form mới), app lưu ảnh **ngay trước cú bấm cuối** thành một bước, có đủ các số của màn hình đó. Góc màn hình hiện thông báo **"Đã chụp Bước n · m điểm"**.
-4. Bước mới hiện ở cột **Đã chụp** bên phải.
+4. **Khi mở hộp thoại (modal, popup)**, app **tự chụp màn hình ngay trước khi hộp thoại hiện ra**, không cần bấm F2. Khi hộp thoại đóng lại, app cũng tự lưu hộp thoại đó thành một bước. Xem [Mở hộp thoại](#mở-hộp-thoại-modal-popup).
+5. Bước mới hiện ở cột **Đã chụp** bên phải.
 
 > **Bảo mật:**
 > - App **không ghi lại những gì bạn gõ**, kể cả mật khẩu. App chỉ ghi vị trí và tên của nút hoặc ô bạn bấm.
@@ -70,6 +71,21 @@ Khi bạn cuộn xuống làm **các điểm đã khoanh bị khuất quá nửa
 3. Số thứ tự **chạy tiếp** (1, 2 → 3, 4…).
 
 Trong Word, PDF và video, các phần hiện dưới **cùng một tiêu đề bước**. Muốn bắt đầu **bước mới hẳn**, bấm **F2** (Chụp ngay) trước khi sang việc mới. Ở màn Biên tập có thể **Tách thành bước riêng** hoặc **Gộp vào bước trước**.
+
+### Mở hộp thoại (modal, popup)
+Nhiều thao tác mở một **hộp thoại nổi** trên trang (ví dụ bấm **Thêm mới** hiện form nhập, bấm **Xoá** hiện hộp xác nhận) mà **địa chỉ trang không đổi**. Trước đây bạn phải bấm **F2** trước khi bấm nút mở hộp thoại. Giờ app **tự làm việc đó**:
+
+1. Bạn bấm nút mở hộp thoại, ví dụ **Thêm món** (điểm số 3).
+2. Ngay khi hộp thoại hiện ra, app **lưu màn hình trước đó** (chưa có hộp thoại, đủ các số 1, 2, 3) thành một bước.
+3. Bạn thao tác trong hộp thoại: các số **bắt đầu lại từ 1** trên bước mới.
+4. Khi bấm **Lưu** / **Đóng** làm hộp thoại tắt đi, app **tự lưu hộp thoại đó** (có các số bạn vừa khoanh) thành một bước.
+
+Kết quả: mỗi hộp thoại là **một bước riêng**, ảnh rõ ràng, không bị hộp thoại che mất các số của màn hình bên dưới.
+
+Lưu ý:
+- Chỉ tự chụp khi **đang bật đánh số**, **không tạm dừng** và **đã có ít nhất một số** trên màn hình. Chưa khoanh điểm nào thì không có gì để lưu.
+- **Danh sách xổ xuống, lịch chọn ngày, menu nhỏ** cạnh ô bạn bấm **không** bị coi là hộp thoại, nên không tách bước.
+- App nhận ra hộp thoại của hầu hết thư viện giao diện phổ biến (Bootstrap, Ant Design, Element, Material UI, SweetAlert, jQuery UI, Kendo…) và hộp thoại trang tự viết. Nếu hộp thoại nào không được nhận ra, vẫn bấm **F2** trước khi mở như cũ.
 
 ### Menu chỉ hiện khi rê chuột
 1. Bấm **F9** (Chụp sau 3 giây).

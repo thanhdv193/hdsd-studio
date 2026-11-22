@@ -106,4 +106,6 @@ Từ viết tắt hoặc tiếng nước ngoài bị đọc sai? Khai báo cách
 
 Nhạc nền và âm lượng được **lưu riêng cho từng tài liệu**.
 
+> **Bản dịch sang ngôn ngữ khác** đọc bằng giọng máy của ngôn ngữ đó (VieNeu chỉ đọc tiếng Việt). Xem [13.7](13-dich-ngon-ngu.md#137-giọng-đọc-cho-bản-dịch).
+
 [← Trang trước](08-video.md) · [Trang sau: Xuất file →](10-xuat-file.md)

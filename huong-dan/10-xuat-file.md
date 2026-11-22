@@ -63,7 +63,11 @@ Khi xuất video:
 
 Bấm **Quay lại biên tập** (góc trên trái) để sửa tiếp.
 
-## 10.5. Mẹo
+## 10.5. Xuất nhiều ngôn ngữ
+
+Khi tài liệu đã có bản dịch (xem [trang 13](13-dich-ngon-ngu.md)), màn Xuất có thêm phần **Ngôn ngữ xuất**. Tích các ngôn ngữ cần xuất: **mỗi ngôn ngữ ra một file riêng**, tên có đuôi mã ngôn ngữ (`_vi`, `_en`, `_ja`…). Ngôn ngữ còn câu chưa duyệt có nhãn vàng **"n câu chưa duyệt"**. Xem [13.6](13-dich-ngon-ngu.md#136-xuất-bản-dịch).
+
+## 10.6. Mẹo
 
 - Muốn **video và tài liệu khớp nhau**: xuất cả **Word + Video MP4** trong một lần.
 - Đăng video lên **YouTube / Zalo / Facebook**: dùng kiểu **Hướng dẫn từng bước** (ngang). Đăng **TikTok / Reels**: dùng kiểu **Cận cảnh từng điểm**, khổ **Dọc 9:16**.

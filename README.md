@@ -48,6 +48,7 @@ Các file `.blockmap`, `.yml`, `.zip` là để app tự cập nhật, bạn **k
 Bạn chỉ cần dùng phần mềm như bình thường. Bấm vào đâu, HDSD Studio khoanh đỏ và đánh số ở đó. Màn hình chuyển là app tự chụp. Không cần chụp tay, không cần cắt ghép ảnh.
 
 - Ghi được **ứng dụng web**, **phần mềm cài trên máy** (Windows, macOS) và **ứng dụng trên điện thoại Android**.
+- **Mở hộp thoại (modal, popup) là app tự chụp** màn hình ngay trước đó, không cần bấm chụp bằng tay. Mỗi hộp thoại thành một bước riêng.
 - Trang dài phải cuộn vẫn ghi liền mạch trong cùng một bước.
 - Ghi xong là có ngay bản nháp đầy đủ các bước.
 
@@ -63,6 +64,11 @@ Một cú bấm, app dựng thành video MP4 hoàn chỉnh, không cần phần 
 - **Phụ đề** tự động theo lời đọc.
 - Nhiều kiểu video: phóng lần lượt tới từng chỗ cần bấm (khổ ngang hoặc dọc), mỗi bước một cảnh kèm danh sách thao tác, hoặc video giới thiệu sản phẩm.
 
+### 🌐 Dịch sang 11 ngôn ngữ
+- AI dịch cả tài liệu, lời đọc và chữ trên video sang **English, Français, Español, Deutsch, Bahasa Indonesia, 中文, 日本語, 한국어, ไทย, ລາວ, ខ្មែរ**.
+- **Dịch theo nghĩa và ngữ cảnh**, dùng thuật ngữ phần mềm chuẩn của từng ngôn ngữ. Tên nút và chữ trên giao diện phần mềm được **giữ nguyên** để khớp với ảnh chụp.
+- Duyệt và sửa từng câu bên cạnh câu gốc, rồi xuất **mỗi ngôn ngữ một file** Word, PDF hoặc video có giọng đọc của ngôn ngữ đó.
+
 ### 📄 Xuất tài liệu
 - Word (có mục lục bấm được), PDF, Markdown hoặc thư mục ảnh.
 - Trước khi xuất có thể sửa câu chữ, kéo lại khung đỏ, vẽ thêm khung, làm mờ thông tin nhạy cảm, sắp xếp, tách, gộp các bước.
@@ -72,7 +78,7 @@ Muốn giọng tự nhiên nhất mà vẫn miễn phí: vào **Cài đặt › 
 
 ## Hướng dẫn sử dụng đầy đủ
 
-Xem **[Hướng dẫn sử dụng](huong-dan/README.md)**, gồm 12 trang từ cài đặt, ghi thao tác, biên tập, AI viết lời, làm video, giọng đọc, xuất file, cài đặt của app đến báo lỗi và câu hỏi thường gặp.
+Xem **[Hướng dẫn sử dụng](huong-dan/README.md)**, gồm 13 trang từ cài đặt, ghi thao tác, biên tập, AI viết lời, làm video, giọng đọc, xuất file, cài đặt của app, báo lỗi và câu hỏi thường gặp, đến dịch sang ngôn ngữ khác.
 
 ## Phím tắt khi ghi
 
@@ -85,7 +91,7 @@ Xem **[Hướng dẫn sử dụng](huong-dan/README.md)**, gồm 12 trang từ c
 | F8 | Bỏ số cuối cùng |
 | F9 | Chụp sau 3 giây (cho menu chỉ hiện khi rê chuột) |
 
-Trên MacBook có thể phải giữ phím `fn` khi bấm F2–F9. Bấm thẳng vào một số đỏ để xoá điểm đó, các số còn lại tự đánh lại.
+Trên MacBook có thể phải giữ phím `fn` khi bấm F2–F9. Bấm thẳng vào một số đỏ để xoá điểm đó, các số còn lại tự đánh lại. Khi mở hộp thoại, app tự chụp nên không cần bấm F2 trước.
 
 ## Cập nhật
 
